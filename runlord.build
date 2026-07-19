@@ -1,0 +1,11 @@
+[app]
+name  = "snake"
+entry = "python3"
+args  = ["server.py"]
+
+[net]
+port = 8080
+
+[runtime]
+autosave = "off"
+health   = "/health"
